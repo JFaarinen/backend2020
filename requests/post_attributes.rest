@@ -1,0 +1,14 @@
+POST http://localhost:3001/api/attributes
+Content-Type: application/json
+
+{
+    "body": {"base": "4", "favoured": "7"},
+    "heart": {"base": "4", "favoured": "5"},
+    "wits": {"base": "6", "favoured": "8"},
+    "exp": {"total": "2", "unused": "2"},
+    "endurance": {"rating": "26", "current": "26", "fatique": "16"},
+    "hope": {"rating": "12", "current": "10", "shadow": "2"},
+    "char_name": "Elnith",
+    "valour":"2",
+    "wisdom":"1"
+}
